@@ -1,4 +1,4 @@
-gcc error
+gc error
 apt-get install ia32-libs 
 
 安装虚拟环境： pip install virtualenv 
@@ -19,3 +19,5 @@ static   配置：
 	view.py -- > def index(request):return render(request,"index.html",locals())
 
 点击启动按钮 -- > 访问网页
+
+git push origin master
