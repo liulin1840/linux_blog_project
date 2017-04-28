@@ -1,4 +1,4 @@
-gc error
+gcc error
 apt-get install ia32-libs 
 
 安装虚拟环境： pip install virtualenv 
@@ -20,4 +20,4 @@ static   配置：
 
 点击启动按钮 -- > 访问网页
 
-git push origin master
+git pull orign master
