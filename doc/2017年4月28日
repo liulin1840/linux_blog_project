@@ -20,5 +20,12 @@ static   配置：
 
 点击启动按钮 -- > 访问网页
 
-git pull orign master
+
 要把整个流程跑顺,
+
+git mergetool          合并错误
+git commit -m "merge"  提交
+git push origin master 推送
+git pull orign master  拉取
+
+
