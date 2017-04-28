@@ -19,3 +19,5 @@ static   配置：
 	view.py -- > def index(request):return render(request,"index.html",locals())
 
 点击启动按钮 -- > 访问网页
+
+git pull orign master
