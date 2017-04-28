@@ -1,0 +1,21 @@
+gcc error
+apt-get install ia32-libs 
+
+安装虚拟环境： pip install virtualenv 
+选择虚拟路径： /home/liulin/work_space 
+创建虚拟环境： virtualenv my_blog_env
+创建项目    ： pycharm 选择虚拟环境 添加虚拟环境，
+
+静态文件和模版的设置
+template 配置: os.path.join(BASE_DIR, 'templates')
+static   配置：
+	STATICFILES_DIRS = (
+	    os.path.join(BASE_DIR, 'static'),
+	)
+所犯错误：少写个所，元组忘了加逗号
+
+路由配置： 
+	urls.py -- > url(r'^$',index,name='index')#别名
+	view.py -- > def index(request):return render(request,"index.html",locals())
+
+点击启动按钮 -- > 访问网页
